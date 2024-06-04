@@ -1,7 +1,7 @@
 * {
-    font-family: 'Italianno', cursive;
-    overflow: hidden;
-
+    
+    overflow: hidden;    
+    font-family: "Imperial Script", cursive;
 }
 
 .container {
@@ -25,6 +25,7 @@
     text-decoration: none;
 
 }
+
 .content {
     width: 100%;
     height: 100vh;
@@ -178,6 +179,7 @@
 .content .hidden {
     display: none;
 }
+
 .fade-in {
     animation: fadeIn 1s ease-in-out forwards;
 }
@@ -208,45 +210,46 @@
 }
 
 .loader svg path:nth-child(1) {
-    stroke-dasharray: 1020;
-    stroke-dashoffset: 1020;
+    stroke-dasharray: 927;
+    stroke-dashoffset: 927;
     animation: line-anim 2s ease forwards 1.7ms;
 }
+
 .loader svg path:nth-child(2) {
-        stroke-dasharray: 1440;
-        stroke-dashoffset: 1440;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 1019;
+    stroke-dashoffset: 1019;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
+
 .loader svg path:nth-child(3) {
-        stroke-dasharray: 769;
-        stroke-dashoffset: 769;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 924;
+    stroke-dashoffset: 924;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
+
 .loader svg path:nth-child(4) {
-        stroke-dasharray: 1765;
-        stroke-dashoffset: 1765;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
+
 .loader svg path:nth-child(5) {
-        stroke-dasharray: 841;
-        stroke-dashoffset: 841;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 687;
+    stroke-dashoffset: 687;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
+
 .loader svg path:nth-child(6) {
-        stroke-dasharray: 769;
-        stroke-dashoffset: 769;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
+
 .loader svg path:nth-child(7) {
-        stroke-dasharray: 1950;
-        stroke-dashoffset: 1950;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
-.loader svg path:nth-child(8) {
-        stroke-dasharray: 4312;
-        stroke-dashoffset: 4312;
-        animation: line-anim 2s ease forwards 1.7ms;
-    }
+    stroke-dasharray: 1916;
+    stroke-dashoffset: 1916;
+    animation: line-anim 2s ease forwards 1.7ms;
+}
 
 @keyframes line-anim {
     to {
