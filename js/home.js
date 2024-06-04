@@ -5,7 +5,7 @@
 // }
 
 // icon loading
-$(window).on("load", function () {
-  $(".content").removeClass("hidden").addClass("fade-in").fadeIn(1000);
-  $(".loader").fadeOut(3000, function () {});
-});
+// $(window).on("load", function () {
+//   $(".content").removeClass("hidden").addClass("fade-in").fadeIn(1000);
+//   $(".loader").fadeOut(3000, function () {});
+// });
