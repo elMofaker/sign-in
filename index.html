@@ -54,11 +54,11 @@
                     <div class="col-12 d-lg-none mb-3">
                         <div class="container">
                             <div class="row">
-                                <div class=" d-lg-none d-flex justify-content-between ">
-                                    <div class="mina-bg-color d-flex align-items-center">
+                                <div class="d-lg-none d-flex justify-content-between ">
+                                    <div class="btn_login mina-bg-color d-flex align-items-center">
                                         <h1 class="main-color-text logo-md logo-sm">login form</h1>
                                     </div>
-                                    <div class="mina-bg-color d-flex align-items-center">
+                                    <div class="btn_sigini mina-bg-color d-flex align-items-center">
                                         <h3 class="main-color-text sign-in-sm sign-in-md">Sign in</h3>
                                     </div>
                                 </div>
@@ -68,10 +68,17 @@
                     <div
                         class="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pt-5 pb-5">
                         <div class="container ml-lg-3">
-                            <form class="">
-                                <input type="email" class=" mb-3 main-input" placeholder="Email">
-                                <input type="password" class=" mb-3 main-input" placeholder="Password">
-                                <button type="button" class=" main-btn">Done</button>
+                            <form class="hid_form">
+                                <!-- الفورم القديم -->
+                                <input type="email" class="mb-3 main-input" placeholder="Email">
+                                <input type="password" class="mb-3 main-input" placeholder="Password">
+                                <button type="button" class="main-btn">Done</button>
+                            </form>
+                            <form class="show_form">
+                                <!-- الفورم الجديد -->
+                                <input type="text" class="mb-3 main-input" placeholder="New Email">
+                                <input type="password" class="mb-3 main-input" placeholder="New Password">
+                                <button type="button" class="main-btn">Done</button>
                             </form>
                         </div>
                     </div>
